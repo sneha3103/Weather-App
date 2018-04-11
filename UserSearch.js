@@ -1,7 +1,7 @@
 var weather = require("weather-js");
 
 function UserSearch(name, location) {
-    this.name = name;
+this.name = name;
     this.location = location;
     this.date = Date.now();
 
